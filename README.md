@@ -5,18 +5,19 @@ Ardour is a legacy Android (Java) app I built in March 2023 to bring everyday he
 
 ## Screenshots
 
-| Login Screen | Permissions Screen | Home Screen (Top) | Profile Screen |
+| Login Screen | Home Screen | Home Screen | Home Screen |
 | :---: | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/645cf990-d73d-4df3-b330-dd91a985fad5" width="200" /> | <img src="https://github.com/user-attachments/assets/e2f7288f-83c0-48b4-80e0-db9826505205" width="200" /> | <img src="https://github.com/user-attachments/assets/ed368a5c-72b8-41ad-9798-30f9907ba2a7" width="200" /> | <img src="https://github.com/user-attachments/assets/dd761e4f-763f-419b-bc09-8d10cd6fae11" width="200" /> |
+| <img src="https://github.com/user-attachments/assets/ff692cd6-2c8d-49fc-8149-1f5f84329da8" width="200" /> | <img src="https://github.com/user-attachments/assets/361275c4-24b1-468e-b09c-b20a0bd628c2" width="200" /> | <img src="https://github.com/user-attachments/assets/ed174aad-984b-4abc-a10d-b74c014b3efe" width="200" /> | <img src="https://github.com/user-attachments/assets/0752e625-e2bd-4953-b59e-e9300b029e61" width="200" />
 
 | Playlist Creation Options | Create by Text Prompt | Create By Image | Create By Image (Upload) |
 | :---: | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/44d9cb46-4a7d-45e7-8cac-4cf1d38856fc" width="200" /> | <img src="https://github.com/user-attachments/assets/da1c8f9e-d074-41d4-89ca-7394efb5e9bd" width="200" /> | <img src="https://github.com/user-attachments/assets/30c91136-4983-45d9-abbc-c013c1e86482" width="200" /> | <img src="https://github.com/user-attachments/assets/a483bd84-0de8-4948-b2ab-8154ceb786e0" width="200" />|
+| <img src="https://github.com/user-attachments/assets/1bb45a9e-ad9f-4b72-ac08-aa60faf11520" width="200" /> |<img src="https://github.com/user-attachments/assets/f7309bd8-703a-47bb-9f6b-15fa94e85005" width="200" /> | <img src="https://github.com/user-attachments/assets/28fea08d-3d2d-40c0-8dd0-6aa7dc673350" width="200" /> | <img src="https://github.com/user-attachments/assets/bca2d9ef-e42f-41e3-aa21-5fd4e750c891" width="200" />|
 
 | Blend 2 Playlists | Playlist View | Profile Screen (Bottom) | Show All Playlists |
 | :---: | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/4f9a5b58-e218-4d04-8b5b-ebcc08fc8abe" width="200" /> | <img src="https://github.com/user-attachments/assets/5245e1fb-c274-40de-b65b-87d0e454ca2f" width="200" /> | <img src="https://github.com/user-attachments/assets/b38888af-f462-46d4-8ca1-78faefdc5b31" width="200" /> | <img src="https://github.com/user-attachments/assets/dff3abc4-10f3-440c-b60a-f4f6494eb3e3" width="200"/> |
 
+<img width="1080" height="2220" alt="ardour-app-ss-1" src="https://github.com/user-attachments/assets/ff692cd6-2c8d-49fc-8149-1f5f84329da8" />
 
 ---
 
