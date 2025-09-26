@@ -1,5 +1,5 @@
-# Ozark - AI Playlist Generator App
-Ozark is a modern Android application built entirely with Kotlin and Jetpack Compose that leverages the power of Google's Gemini generative AI to create unique and personalized Spotify playlists. Go beyond simple search and discover music in a completely new way by giving the AI creative text prompts, analyzing images, blending your existing playlists, and more.
+# Ardour - Health and Fitness Tracking App
+Ardour is a legacy Android (Java) app I built in March 2023 to bring everyday health utilities into one place. It combines simple fitness logging, calorie and water intake tracking, nearby-care lookups (hospitals, fitness centers, blood donors/donation camps), doctor search, a lightweight medicine shop view, and short blog reads—aimed at giving users a single, convenient hub for day-to-day wellness.
 
 ---
 
@@ -22,80 +22,42 @@ Ozark is a modern Android application built entirely with Kotlin and Jetpack Com
 
 ## Features
 
-The app is packed with features designed to provide a seamless and creative music discovery experience:
+* **Fitness Tracker:** Log basic workouts/activities and keep a simple history.
+* **Calorie Tracker** – Manually add meals/foods and track daily intake against goals.
+* **Fitness Tracker:** Log basic workouts/activities and keep a simple history.
+* **Water Intake Tracker** – Quick-add glasses/ML to stay hydrated through the day.
+* **Nearby Hospitals & Fitness Centers** – Find relevant places around you using device location.
+* **Blood Donors & Donation Camps** – Look up donors or local camp info (where available).
+* **Medicines Shop** – Browse/search medicines with a basic catalog-style interface.
+* **Search for Doctors** – Simple discovery flow to find doctors by specialty/name (data-source dependent).
+* **Blogs / Articles** – Short reads with health and fitness tips.
 
-* **Dynamic AI Playlist Generation:**
-    * **From Text:** Write any idea, mood, or complex prompt, and the AI will generate a tailored playlist.
-    * **From Images:** Select an image from your gallery, and the AI will analyze its vibe to create a matching playlist.
-    * **From AI Suggestions:** The home screen is populated with AI-generated ideas (Artists, Albums, and Prompts) that you can tap to instantly generate a new playlist.
-
-* **AI Playlist Fusion:**
-    * Select any two playlists from your own Spotify library.
-    * The AI analyzes the tracks from both and intelligently creates a new "blend" playlist that captures the essence of both.
-
-* **Seamless Spotify Integration:**
-    * Secure Spotify login using the OAuth 2.0 Authorization Code Flow with PKCE.
-    * **Automatic Token Refresh:** The app automatically handles expired access tokens, providing an uninterrupted user experience without requiring re-login.
-    * One-tap transfer to save and open any generated playlist directly in your Spotify account.
-
-* **Personalized Library & Profile:**
-    * All generated playlists are automatically saved to a local database.
-    * A dynamic profile screen shows your stats, including the total number of playlists created and songs discovered.
-    * The profile also features a personalized "Discovered Artists" section based on the tracks in your saved playlists.
-
-* **Modern, Dynamic UI:**
-    * Built entirely with **Jetpack Compose** and **Material Design 3**.
-    * Supports system-wide Dark Mode.
-    * Features a modern, floating navigation bar and a dynamic top app bar that becomes transparent when scrolling.
 
 ---
 
 ## Technology Stack & Architecture
 
-* **UI:** Jetpack Compose & Material 3
-* **Language:** 100% Kotlin
-* **Architecture:** MVVM (Model-View-ViewModel) with a Repository Pattern
-* **Asynchronicity:** Kotlin Coroutines & Flow for all async operations.
-* **Networking:**
-    * **Retrofit:** For type-safe HTTP requests to the Spotify API.
-    * **OkHttp:** For the underlying HTTP client, featuring a custom `Authenticator` for automatic token refresh and a `Logging Interceptor` for debugging.
-* **AI Model:** Google's **Gemini Pro** accessed via the Firebase Vertex AI SDK.
-* **Database:** **RoomDB** for local persistence of user-created playlists and tracks.
-* **Image Loading:** **Coil** for asynchronously loading images from the web.
-* **Data Parsing:**
-    * **Kotlinx.serialization:** For parsing JSON from the Gemini AI.
-    * **Gson:** For parsing JSON from the Spotify API.
-
----
-
-## Setup and Installation
-
-To build and run this project yourself, you will need to:
-
-1.  Clone the repository: `git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git`
-2.  Open the project in the latest stable version of Android Studio.
-3.  Create a `local.properties` file in the root directory of the project.
-4.  Add your Spotify Client ID to this file:
-    ```properties
-    SPOTIFY_CLIENT_ID="YOUR_CLIENT_ID_HERE"
-    ```
-5.  Go to your Spotify Developer Dashboard and ensure that your app is configured with the correct **Redirect URI**: `ozark://callback`.
-6.  Build and run the app.
+* Language: Java (Android)
+* IDE / Timeframe: Android Studio Flamingo era (project created March 2023)
+* Build System: Gradle with Android Gradle Plugin 7.3.1
+* Android SDK: Legacy Android View system with XML layouts
+* Core Android APIs: Activities/Fragments, Permissions, Location (for “nearby” features)
 
 ---
 
 ## Notes & Known Issues
 
-1.  Over time, if content doesn't display correctly, please try logging out and logging back in from the profile screen.
-2.  The Spotify token refresh mechanism is being improved and will be made more robust in future updates.
+* **Legacy project (for reference/demo use**). This is not a production or medically validated app and should not be used for clinical decision-making. Location and third-party data may be incomplete or outdated.
+* **Old toolchain**. The code targets the Flamingo timeframe with AGP 7.3.1. To run as-is, match Gradle/AGP versions (e.g., Gradle 7.4 with AGP 7.3.1). Newer Android Studio versions may prompt upgrades that can break the build.
 
----
+* **Modernization path (recommended for a fresh rebuild)**:
+   * Kotlin, Jetpack Compose UI, Navigation, Room (local DB), Retrofit/OkHttp (network), Hilt (DI), Coroutines/Flow.
+   * Update to current compile/target SDK, AGP 8+, Gradle 8+, and adopt runtime permissions & privacy best practices.
+   * Replace/verify all data sources (donors, doctors, shops) and add proper error handling, caching, and pagination.
 
-## Download
+* **Security & Privacy**. If reviving, audit all permissions (Location, Network), add a privacy policy, secure API keys, and comply with platform and regional regulations.
 
-If you'd like to try the app without building it from source, you can download the latest pre-compiled APK from the **Releases** page.
-
-**[Download the Latest Release](https://github.com/anantkumarsingh/ozark-ai-music-app/releases/latest)**
+*  **Repository note**. The attached code is from 2023 and is shared for archival/learning. A robust, up-to-date version should be implemented with the modern stack above.
 
 ---
 
