@@ -9,24 +9,24 @@ Ardour is a legacy Android (Java) app I built in March 2023 to bring everyday he
 | :---: | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/ff692cd6-2c8d-49fc-8149-1f5f84329da8" width="200" /> | <img src="https://github.com/user-attachments/assets/361275c4-24b1-468e-b09c-b20a0bd628c2" width="200" /> | <img src="https://github.com/user-attachments/assets/ed174aad-984b-4abc-a10d-b74c014b3efe" width="200" /> | <img src="https://github.com/user-attachments/assets/0752e625-e2bd-4953-b59e-e9300b029e61" width="200" />
 
-| Playlist Creation Options | Create by Text Prompt | Create By Image | Create By Image (Upload) |
+| Register for Donation | Search for Donors | Search for Donors | Search for Hospitals |
 | :---: | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/1bb45a9e-ad9f-4b72-ac08-aa60faf11520" width="200" /> |<img src="https://github.com/user-attachments/assets/f7309bd8-703a-47bb-9f6b-15fa94e85005" width="200" /> | <img src="https://github.com/user-attachments/assets/28fea08d-3d2d-40c0-8dd0-6aa7dc673350" width="200" /> | <img src="https://github.com/user-attachments/assets/bca2d9ef-e42f-41e3-aa21-5fd4e750c891" width="200" />|
 
-| Blend 2 Playlists | Playlist View | Profile Screen (Bottom) | Show All Playlists |
+| Search for Doctors | Doctor Preview | Search for Training Centre | Shop Pharmacy |
 | :---: | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/d5a03d70-4c91-4367-b6e5-0890627cf929" width="200" /> | <img src="https://github.com/user-attachments/assets/8c5c112b-4828-46e0-843e-16ba3c4c5378" width="200" /> | <img src="https://github.com/user-attachments/assets/94d74ac1-af00-46f4-8b2a-3c1b7f4282f5" width="200" /> | <img src="https://github.com/user-attachments/assets/e3c159eb-ed22-4fec-a113-d591307d3f26" width="200"/> |
 
 
-| Blend 2 Playlists | Playlist View | Profile Screen (Bottom) | Show All Playlists |
+| Schedule | Training & Diet | Training Section | Training Section |
 | :---: | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/139b9ded-7ab4-4610-879e-e22000c27e0c" width="200" /> |<img src="https://github.com/user-attachments/assets/2d3addc5-f5e1-4390-a731-95492bf8af8e" width="200" /> |<img src="https://github.com/user-attachments/assets/f745aacc-6878-4dab-8626-e5946ea4596f" width="200" /> | <img src="https://github.com/user-attachments/assets/b8b1bcd0-e9d5-4d75-a0db-2004692b54db" width="200"/> |
 
-| Blend 2 Playlists | Playlist View | Profile Screen (Bottom) | Show All Playlists |
+| Track Calories | Add Meals | Add Water Intake | Blog Section |
 | :---: | :---: | :---: | :---: |
-|<img src="https://github.com/user-attachments/assets/269cbf1c-e8b2-4db6-9a80-6599530ff2c0" width="200" /> | <img src="https://github.com/user-attachments/assets/ff638a85-11df-43b3-a29b-5cf3c637059b" width="200" /> | <img src="https://github.com/user-attachments/assets/630a5f0f-cc37-4819-abba-27a3624c3238" width="200" /> | <img src="https://github.com/user-attachments/assets/dbe36e96-03bd-4212-bd61-3f8471f06b91" width="200"/> |
+| <img src="https://github.com/user-attachments/assets/497741e0-defc-44c6-af32-28c9f85957a4" width="200" /> | <img src="https://github.com/user-attachments/assets/269cbf1c-e8b2-4db6-9a80-6599530ff2c0" width="200" /> | <img src="https://github.com/user-attachments/assets/ff638a85-11df-43b3-a29b-5cf3c637059b" width="200" /> | <img src="https://github.com/user-attachments/assets/dbe36e96-03bd-4212-bd61-3f8471f06b91" width="200"/> |
 
-| Blend 2 Playlists | Playlist View |
+| Blog Screen | Profile Screen |
 | :---: | :---: |
 |<img src="https://github.com/user-attachments/assets/a813ab1f-b47f-4e9a-80c8-7ae8221b0656" width="200" /> | <img src="https://github.com/user-attachments/assets/63f7307e-7166-4bec-a511-8ad69708e6da" width="200" /> | 
 
