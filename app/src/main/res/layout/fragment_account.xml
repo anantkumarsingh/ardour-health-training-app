@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".ui.account.AccountFragment">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/user_name_acc"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="80dp"
+            android:fontFamily="@font/bebas_nue_reg"
+            android:autoSizeTextType="uniform"
+            android:textSize="30sp"
+            android:text="USER NAME"
+            android:textColor="@color/khaki"
+            android:textStyle="italic" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:src="@drawable/ic_baseline_account_circle_white_24"
+            app:shapeAppearanceOverlay="@style/Circular"
+            android:layout_alignParentEnd="true"
+            android:layout_width="95dp"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="95dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/user_name_acc"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFF" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="NotSibling">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/text_123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="ALL INFORMATION"
+                    android:fontFamily="@font/bebas_nue_reg"
+                    android:textColor="@color/khaki"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+
+                <TextView
+                    android:id="@+id/text_124"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_123"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/bal_jamburee_reg"
+                    android:text="Address"
+                    android:textColor="#ACAAA2"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/user_adr_acc"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_124"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Address"
+                    android:fontFamily="@font/baijamjureebold"
+                    android:textColor="#ACAAA2"
+                    android:textSize="18sp"
+                     />
+
+                <TextView
+                    android:id="@+id/text_125"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_123"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Phone"
+                    android:fontFamily="@font/bal_jamburee_reg"
+                    android:layout_marginLeft="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="#ACAAA2"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/user_phone_acc"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_125"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"
+                    android:text="Phone Number"
+                    android:fontFamily="@font/baijamjureebold"
+                    android:textColor="#ACAAA2"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/text_126"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/user_adr_acc"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Email"
+                    android:fontFamily="@font/bal_jamburee_reg"
+                    android:textColor="#ACAAA2"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/user_email_acc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_126"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Email"
+                    android:fontFamily="@font/baijamjureebold"
+                    android:textColor="#ACAAA2"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/user_name_acc"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#FFFF" />
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/text_128"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="ALL TIME STATS"
+                    android:fontFamily="@font/bebas_nue_reg"
+
+                    android:textColor="@color/khaki"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+
+                <TextView
+                    android:id="@+id/text_129"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_128"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Weight"
+                    android:fontFamily="@font/bal_jamburee_reg"
+                    android:textColor="#ACAAA2"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/user_wt_acc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_129"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="72 KG"
+                    android:fontFamily="@font/baijamjureebold"
+                    android:textColor="#ACAAA2"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/text_130"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/user_wt_acc"
+                    android:layout_below="@id/text_128"
+                    android:layout_marginTop="20dp"
+                    android:text="Calories Burnt"
+                    android:layout_marginLeft="100dp"
+                    android:fontFamily="@font/bal_jamburee_reg"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="#ACAAA2"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/user_cal_acc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_130"
+                    android:layout_toRightOf="@+id/user_wt_acc"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="0 CAL"
+                    android:fontFamily="@font/baijamjureebold"
+                    android:textColor="#ACAAA2"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/text_131"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/user_cal_acc"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Water Intake"
+                    android:textColor="#ACAAA2"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/bal_jamburee_light"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/user_water_acc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_131"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="0 L"
+                    android:fontFamily="@font/baijamjureebold"
+                    android:textColor="#ACAAA2"
+                    android:textSize="18sp"
+                    />
+
+
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="120dp"
+                android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text_132"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:text="ACHIEVEMENTS"
+                android:fontFamily="@font/bebas_nue_reg"
+                android:textColor="@color/khaki"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+                <TextView
+                    android:id="@+id/text_133"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_132"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/bal_jamburee_light"
+                    android:text="There Are No"
+                    android:textColor="@color/khaki"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/text_134"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_133"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Achievements Yet"
+                    android:fontFamily="@font/bal_jamburee_light"
+                    android:textColor="@color/light_red"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/text_135"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_134"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/bal_jamburee_light"
+                    android:text="But we can change that! Head to the training section and attempt daily challenges"
+                    android:textColor="@color/grey"
+                    android:textSize="18sp" />
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

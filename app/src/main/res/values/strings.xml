@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">atl-test-app-1</string>
+    <string name="title_home">Home</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_training">Training</string>
+    <string name="title_report">Donate</string>
+    <string name="title_account">Account</string>
+    <string name="title_aboutus">About Us</string>
+    <string name="featured_blog_title"> You Can Do \n Better Today \n With Your Goals </string>
+    <string name="blood_donation_txt">A Drop Can \nBe Someone\'s \nChance To Breathe </string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="forgot_pass"><u>forgot password?</u></string>
+    <string name="have_acc"><u>Have an Account? Log In</u></string>
+    <string name="blood_dono_home_content">
+     The Indian government has launched a number of programs to encourage and support blood donation there.These include establishing a national database of blood donors,
+     setting up blood banks and storage facilities across the nation,and establishing the National Blood Transfusion Council (NBTC) to monitor blood donation and transfusion activities.
+     The government has also put in place regulations to promote and reward blood donation, such as free blood screening for donors and tax exemptions for them.Additionlly,
+     the government has collaborated with private businesses and non-governmental organizations (NGOs) to plan blood donation drives and spread awareness of the value of blood donation.
+     These initiatives have aided in boosting the supply of safe blood and decreasing the prevalence of blood-borne illnesses in India.
+
+    </string>
+
+    <string-array name="blood_groups">
+        <item>Select Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+
+    <string-array name="select_date">
+        <item>Select Date</item>
+        <item>5th May, Friday</item>
+        <item>6th May, Saturday</item>
+        <item>7th May, Sunday</item>
+        <item>8th May, Monday</item>
+        <item>9th May, Tuesday</item>
+        <item>10th May, Wednesday</item>
+        <item>11th May, Thursday</item>
+    </string-array>
+
+
+    <string-array name="select_time">
+        <item>Select Time</item>
+        <item>10:00 AM</item>
+        <item>12:00 PM</item>
+        <item>2:00 PM</item>
+        <item>04:00 PM</item>
+        <item>06:00 PM</item>
+
+
+    </string-array>
+
+
+    <string name="blood_donation_blog_1">Blood donation is the process of voluntarily giving blood, which is then used to save the lives of people in need.The donated blood is collected in blood banks and is used for medical procedures such as blood transfusions, surgeries,and treatments for various medical conditions. Blood donation works by collecting blood from a healthy donor through a processcalled phlebotomy. The collected blood is then screened for various diseases, such as HIV, hepatitis, and malaria, to ensure that it is safe for transfusion. Once the blood is deemed safe, it is stored and distributed to hospitals and medical facilities as needed.Donating blood is a safe and easy process that usually takes less than an hour. Before donating, you will be screened for any health issues or risk factors that could affect your eligibility to donate. You will also receive a mini-physical to check your blood pressure, pulse, and hemoglobin levels. The actual donation process only takes about 10-15 minutes, and you will be given refreshments and snacks afterward to help replenish your body.
+
+
+   </string>
+
+    <string name="blood_donation_blog_2">
+
+    \nDonating blood is often considered a patriotic duty in many countries.Its a way to show support for your fellow citizens and help ensure that your country has a strong and resilient healthcare system.By donating blood, you can help strengthen your country’s emergency preparedness and response capabilities.In conclusion, donating blood is a simple yet powerful way to make a positive impact on the lives of others.By giving just a pint of your blood, you can help save lives, improve your own health, give back to your community,and fulfill your patriotic duty. If you’re eligible to donate blood, consider making it a regular part of your healthcare routine and encourage others to do the same.
+
+    </string>
+
+
+    <string name="why_donate_blog_1">A vital and life-saving practice, blood donation benefits society as a whole, especially in India. In India, which has a population of over 1.3 billion, the demand for blood is consistently high yet the supply is frequently insufficient. In order to close this gap and guarantee that hospitals and medical facilities have access to enough blood to save lives, blood donation is essential. Blood donation is especially crucial in situations where blood transfusions might save lives, such as in accidents, natural disasters, and surgical procedures. Its importance also lies in helping people with blood-related disorders such as anemia, cancer, and thalassemia. Additionally, giving blood is safe, simple, and relatively painless thanks to modern equipment and techniques. Blood donations enable people to save the lives of those who are in need and to improve the health and wellbeing of their communities. Therefore, encouraging and promoting blood donation is essential to meet the needs of patients and improve overall public health.
+
+
+   </string>
+
+    <string name="why_donate_blog_2">
+
+    \nBlood donation is a selfless act that can help save countless lives. It involves voluntarily giving a pint of your blood, which can be used to help people who are in dire need of blood transfusions due to medical conditions or injuries. Here are some reasons why you should consider donating blood:
+
+1. You can save lives
+Blood transfusions are a common medical procedure that can help save the lives of people who have lost blood due to accidents, surgeries, or medical conditions like cancer or anemia. According to the World Health Organization, about 118.4 million blood donations are collected worldwide each year, which helps save millions of lives.
+
+2. It’s easy and safe
+Donating blood is a safe and easy process that usually takes less than an hour. Before donating, you will be screened for any health issues or risk factors that could affect your eligibility to donate. You will also receive a mini-physical to check your blood pressure, pulse, and hemoglobin levels. The actual donation process only takes about 10-15 minutes, and you will be given refreshments and snacks afterward to help replenish your body.
+
+3. It’s good for your health
+Donating blood has been shown to have several health benefits for donors. It can help reduce the risk of heart disease, stroke, and some types of cancer. It can also stimulate the production of new blood cells, which can help improve your overall health and wellbeing.
+
+4. It’s a community service
+Donating blood is a simple yet powerful way to give back to your community. By donating blood, you can help ensure that hospitals and blood banks have an adequate supply of blood to meet the needs of people who require transfusions. You can also inspire others to donate blood and make a positive impact on the health and wellbeing of your community.
+
+    </string>
+
+
+    <string name="how_process_1">
+
+Here is an overview of the blood donation process in India:
+\n
+        \n
+Eligibility Criteria
+\n
+        \n
+The first step in the blood donation process is to ensure that the donor is eligible to donate blood. In India, the eligibility criteria for blood donation are set by the National Blood Transfusion Council (NBTC). According to the NBTC, donors must meet the following requirements:
+\n
+\n
+- Be between the ages of 18 and 65 years
+\n
+        \n
+- Weigh at least 50 kg
+\n
+        \n
+- Have a hemoglobin level of at least 12.5 g/dL
+\n
+\n
+- Be free from any communicable diseases such as HIV/AIDS, hepatitis B and C, syphilis, and malaria
+\n
+\n
+- Have not donated blood in the last three months (for men) or four months (for women)
+\n
+\n
+- Donation Process
+\n
+\n
+Once a donor meets the eligibility criteria, they can proceed with the donation process. Here are the steps involved in blood donation:
+
+\n
+\n
+1. <b>Registration</b>
+\n
+\n
+The donor must register at a blood bank or blood donation center. They will be required to provide their name, age, weight, and contact information. The donor will also be asked about their medical history to ensure that they are eligible to donate blood.
+\n
+\n
+2. <b>Medical Screening</b>
+\n
+\n
+The donor will undergo a medical screening to check their blood pressure, pulse, and hemoglobin levels. They will also be asked about any recent illnesses, surgeries, or medications they have taken. This screening helps ensure that the donor is in good health and does not have any conditions that could affect the safety of the blood.
+\n
+\n
+3. <b>Blood Donation</b>
+\n
+\n
+If the donor passes the medical screening, they will proceed with the blood donation. A qualified medical professional will clean the donors arm and insert a sterile needle into their vein. The blood will then be collected into a sterile bag. The entire process usually takes about 10 to 15 minutes.
+
+    </string>
+
+
+    <string name="how_process_2">4. Refreshments
+\n
+\n
+After the donation, the donor will be given refreshments and asked to rest for a few minutes. This helps prevent any dizziness or fainting. The donor will also be advised to drink plenty of fluids over the next 24 hours to help replenish their fluids.
+\n
+\n
+<b>Storage and Testing</b>
+\n
+\n
+Once the blood is collected, it is stored in a blood bank or blood center. The blood is separated into different components such as red blood cells, plasma, and platelets. These components are then tested for any infections or diseases. The blood is only used for transfusions if it passes these tests.
+\n
+\n
+<b>Distribution</b>
+\n
+\n
+The blood that passes the tests is then distributed to hospitals and medical facilities as needed. The blood is usually used to treat patients who have lost blood due to accidents, surgeries, or medical conditions like anemia or cancer.
+\n
+\n
+<b>Conclusion</b>
+\n
+\n
+Blood donation is a simple yet powerful way to help save lives. The process of donating blood in India involves several steps that ensure the safety and well-being of both the donor and the recipient. If you are eligible to donate blood, consider making it a regular part of your healthcare routine. By donating blood, you can help make a positive impact on the lives of others and contribute to the overall health and well-being of your community.
+
+
+   </string>
+
+    <string name="lost_motivation">Lost motivation can happen to anyone, but there are ways to overcome it. One strategy is to revisit your why. Remind yourself of the purpose and value behind your goals, and the positive impact achieving them will have on your life. Another approach is to break your goals down into smaller, more manageable tasks. This can help you avoid feeling overwhelmed and give you a sense of accomplishment as you complete each task. Its also important to take care of yourself by getting enough rest, exercise, and nutrition. Sometimes, a change of scenery or perspective can also help. Try mixing up your routine, taking a break, or seeking support and guidance from others. Remember, lost motivation is not a failure, its a natural part of the journey towards achieving your goals. Stay positive, stay focused, and stay motivated.
+
+
+   </string>
+
+
+    <string name="speed_muscle_recovery">To speed up muscle recovery after a workout, its important to take care of your body both during and after exercise. One of the most effective ways to speed up muscle recovery is to give your body adequate rest and sleep. Aim for at least 7-8 hours of sleep each night and avoid overtraining, which can lead to muscle fatigue and injury. Proper nutrition is also crucial for muscle recovery. Make sure to consume enough protein to support muscle repair and growth, as well as healthy fats and carbohydrates to provide energy and aid in muscle recovery. Hydration is also important for flushing out toxins and aiding in muscle repair. Additionally, stretching, foam rolling, and massage can help increase blood flow and reduce muscle soreness. Finally, consider incorporating active recovery activities such as yoga or light cardio to help promote circulation and aid in muscle recovery.
+
+
+   </string>
+
+
+</resources>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".activities.MealActivity">
+
+    <RelativeLayout
+        android:id="@+id/home_header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="Track Your Calories"
+        android:fontFamily="@font/bebas_nue_reg"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/breakfast_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:backgroundTint="@color/neon_green"
+                    xmlns:card_view="http://schemas.android.com/tools"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginTop="10dp"
+                    card_view:cardCornerRAdius="5dp">
+
+                    <RelativeLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="Breakfast"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="Enter Your Breakfast Log for Today"
+                            android:textColor="@color/grey"
+                            android:textSize="14sp" />
+
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/add_breakfast_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:backgroundTint="#8999EF"
+                            android:layout_alignParentBottom="true"
+                            android:text="+ ADD breakfast"
+                            android:textColor="@color/black"
+                            app:cornerRadius="10dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginBottom="20dp"
+
+                            >
+
+                        </com.google.android.material.button.MaterialButton>
+
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/lunch_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/breakfast_card"
+                    xmlns:card_view="http://schemas.android.com/tools"
+                    app:cardCornerRadius="15dp"
+                    android:backgroundTint="@color/neon_green"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginTop="10dp"
+                    card_view:cardCornerRAdius="5dp">
+
+
+                    <RelativeLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="Lunch"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="Enter Your Lunch Log for Today"
+                            android:textColor="@color/grey"
+                            android:textSize="14sp" />
+
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/add_lunch_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:backgroundTint="#8999EF"
+                            android:layout_alignParentBottom="true"
+                            android:text="+ ADD Lunch"
+                            android:textColor="@color/black"
+                            app:cornerRadius="10dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginBottom="20dp"
+
+                            >
+
+                        </com.google.android.material.button.MaterialButton>
+
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dinner_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/lunch_card"
+                    xmlns:card_view="http://schemas.android.com/tools"
+                    app:cardCornerRadius="15dp"
+                    android:backgroundTint="@color/neon_green"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginTop="10dp"
+                    card_view:cardCornerRAdius="5dp">
+
+                    <RelativeLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="Dinner"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="Enter Your Dinner Log for Today"
+                            android:textColor="@color/grey"
+                            android:textSize="14sp" />
+
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/add_dinner_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:backgroundTint="#8999EF"
+                            android:layout_alignParentBottom="true"
+                            android:text="+ ADD Dinner"
+                            android:textColor="@color/black"
+                            app:cornerRadius="10dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginBottom="20dp"
+
+                            >
+
+                        </com.google.android.material.button.MaterialButton>
+
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/snack_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/dinner_card"
+                    xmlns:card_view="http://schemas.android.com/tools"
+                    app:cardCornerRadius="15dp"
+                    android:backgroundTint="@color/neon_green"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    card_view:cardCornerRAdius="5dp">
+
+                    <RelativeLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="Snacks"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="Enter Your Snacks Log for Today"
+                            android:textColor="@color/grey"
+                            android:textSize="14sp" />
+
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/add_snacks_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:backgroundTint="#8999EF"
+                            android:layout_alignParentBottom="true"
+                            android:text="+ ADD Snacks"
+                            android:textColor="@color/black"
+                            app:cornerRadius="10dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginBottom="20dp"
+
+                            >
+
+                        </com.google.android.material.button.MaterialButton>
+
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

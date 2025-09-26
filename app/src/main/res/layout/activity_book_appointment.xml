@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".activities.BookAppointment">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/doctor_name_bookpage"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/bebas_nue_reg"
+            android:autoSizeTextType="uniform"
+            android:textSize="30sp"
+            android:text="DOCTOR NAME"
+            android:textColor="@color/khaki"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/doctor_spec_bookpage"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/doctor_name_bookpage"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="50dp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="@font/bal_jamburee_reg"
+            android:text="DOCTOR NAME"
+            android:textColor="@color/khaki"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:src="@drawable/ic_baseline_account_circle_white_24"
+            app:shapeAppearanceOverlay="@style/Circular"
+            android:layout_alignParentEnd="true"
+            android:layout_width="95dp"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="95dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/doctor_spec_bookpage"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFF" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="NotSibling">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/text_123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="SELECT DATE"
+                    android:fontFamily="@font/bebas_nue_reg"
+                    android:textColor="@color/khaki"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+
+
+                <Spinner
+                    android:id="@+id/select_date_doctor"
+                    android:layout_below="@id/text_123"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:spinnerMode="dropdown"
+                    android:layout_centerVertical="true"/>
+
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/user_name_acc"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#FFFF" />
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/text_128"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="SELECT TIME"
+                    android:fontFamily="@font/bebas_nue_reg"
+                    android:textColor="@color/khaki"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+
+
+
+                <Spinner
+                    android:id="@+id/select_time_doctor"
+                    android:layout_below="@id/text_128"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:spinnerMode="dropdown"
+                    android:layout_centerVertical="true"/>
+
+
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/select_time_doctor"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#FFFF" />
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="120dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/text_132"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="DOCTOR INFO"
+                    android:fontFamily="@font/bebas_nue_reg"
+                    android:textColor="@color/khaki"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+
+                <TextView
+                    android:id="@+id/text_135"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_132"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/bal_jamburee_light"
+                    android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \n\nIt has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                    android:textColor="@color/white_purple"
+                    android:textSize="18sp" />
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

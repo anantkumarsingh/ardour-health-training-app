@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        tools:cardCornerRadius="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/food_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FOOD ITEM "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/glass"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:id="@+id/food_item_cal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 Cal "
+                android:layout_toLeftOf="@+id/add_food_btn"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginRight="20dp"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"/>
+
+
+            <TextView
+                android:id="@+id/food_item_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="60dp"
+                android:text="00 Cal, Brand, 00.0 gram "
+                android:textColor="@color/grey" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/add_food_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/light_purple"
+                app:cornerRadius="20dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:icon="@drawable/ic_baseline_add_24_white"
+                app:iconGravity="textTop"
+
+                >
+
+            </com.google.android.material.button.MaterialButton>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

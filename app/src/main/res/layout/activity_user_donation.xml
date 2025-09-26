@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".activities.UserDonationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginTop="110dp"
+
+            />
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:paddingLeft="51dp"
+            android:fontFamily="@font/glass"
+            android:text="REGISTER FOR\nDonation"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <!--
+            <Spinner
+                android:id="@+id/login_id_spinner"
+                style="@style/spinner_style"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="410dp"
+                android:spinnerMode="dropdown" />
+        -->
+
+
+        <!--
+        <Spinner
+            android:id="@+id/lang_spinner_login"
+            style="@style/spinner_style"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="270dp"
+            android:spinnerMode="dropdown"
+            android:tooltipText="Choose Language" />
+
+    -->
+
+        <EditText
+            android:layout_below="@id/text_1"
+            android:id="@+id/reg_name_box_donor"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="51dp"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="10dp"
+            android:ems="4"
+            android:hint="Name"
+            android:minHeight="48dp"
+            android:textColor="@color/light_white"
+            android:textColorHint="@color/light_white" />
+
+        <EditText
+            android:id="@+id/reg_email_box_donor"
+            android:layout_below="@id/reg_name_box_donor"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="51dp"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="10dp"
+            android:ems="4"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/light_white"
+            android:textColorHint="@color/light_white" />
+
+
+        <TextView
+            android:id="@+id/text_5"
+            android:layout_below="@id/reg_email_box_donor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:text="Date Of Birth"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <DatePicker
+            android:id="@+id/reg_dob_box_donor"
+            android:layout_below="@id/text_5"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:datePickerMode="spinner"
+            android:hint="Select Date of Birth"
+            android:calendarTextColor="#FFFFFF"
+            android:spinnersShown="true" />
+
+
+        <EditText
+            android:id="@+id/reg_adr_box_donor"
+            android:layout_width="211dp"
+            android:layout_below="@id/reg_dob_box_donor"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="51dp"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="10dp"
+            android:ems="4"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:textColor="@color/light_white"
+            android:textColorHint="@color/light_white" />
+
+
+        <EditText
+            android:id="@+id/reg_mobile_box_donor"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reg_adr_box_donor"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="51dp"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="10dp"
+            android:ems="4"
+            android:hint="Mobile Number"
+            android:textColor="@color/light_white"
+            android:textColorHint="@color/light_white" />
+
+        <Spinner
+            android:id="@+id/reg_bg_box"
+            android:layout_below="@id/reg_mobile_box_donor"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:spinnerMode="dropdown" />
+
+
+        <Button
+            android:id="@+id/reg_signup_btn_donor"
+            android:layout_below="@+id/reg_bg_box"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="127dp"
+            android:backgroundTint="@color/neon_green"
+            android:text="SIGN UP"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+</ScrollView>

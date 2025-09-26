@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".ui.donate.DonationFragment">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/text_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="Blood Donation"
+            android:fontFamily="@font/bebas_nue_reg"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="NotSibling">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:id="@+id/text_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Blood Donation"
+                    android:fontFamily="@font/bal_jamburee_reg"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_below="@id/text_4"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="10dp"
+                    app:cardUseCompatPadding="true"
+                    tools:cardCornerRadius="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp">
+
+                    <RelativeLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:cropToPadding="true"
+                            android:scaleType="centerCrop"
+                            android:foreground="#3F000000"
+                            android:src="@drawable/_7759b26_3b9c_409d_a4b8_8ad680dff5b7"
+                            android:foregroundTintMode="src_atop"
+                            android:adjustViewBounds="true"
+                            >
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/challenge_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="You've got a\nChance to\nsave lives"
+                            android:fontFamily="@font/playfair_display"
+                            android:textStyle="italic"
+                            android:textColor="@color/white"
+                            android:textSize="30sp" />
+
+                        <TextView
+                            android:layout_below="@id/challenge_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="Sign up for our blood donation campaign."
+                            android:fontFamily="@font/bal_jamburee_reg"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/continue_dono_btn"
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/khaki"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:text="Continue"
+                            android:textColor="@color/black"
+                            app:cornerRadius="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="20dp"
+                            >
+
+                        </com.google.android.material.button.MaterialButton>
+
+
+
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Quick Access"
+                    android:fontFamily="@font/bebas_nue_reg"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_below="@id/text_5"
+                    android:id="@+id/dono_blood_frag"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="10dp"
+                    app:cardUseCompatPadding="true"
+                    tools:cardCornerRadius="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:foreground="#2F000000"
+                            android:foregroundTintMode="src_atop"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/_edf50fe_b036_45ee_b904_78cce352cd8d"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/playfair_display"
+                            android:text="DONATE BLOOD"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="30sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20dp"
+                            android:text="Read More"
+                            android:textStyle="italic"
+                            android:layout_marginBottom="20dp"
+                            android:layout_alignParentBottom="true"
+                            android:textColor="@color/black"
+                            android:textSize="10sp" />
+
+
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_below="@id/dono_blood_frag"
+                    android:id="@+id/search_dono_frag"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="10dp"
+                    app:cardUseCompatPadding="true"
+                    tools:cardCornerRadius="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:cropToPadding="true"
+                            android:scaleType="centerCrop"
+                            android:foreground="#3F000000"
+                            android:src="@drawable/a5d985d1ac2bdcf910701b65e24e2345"
+                            android:foregroundTintMode="src_atop"
+                            android:adjustViewBounds="true"
+                            >
+                        </ImageView>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="Search For Blood Donors"
+                            android:fontFamily="@font/playfair_display"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="30sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20dp"
+                            android:text="Read More"
+                            android:textStyle="italic"
+                            android:layout_marginBottom="20dp"
+                            android:layout_alignParentBottom="true"
+                            android:textColor="@color/black"
+                            android:textSize="10sp" />
+
+
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Don't Miss Our \nNewest Content!"
+                    android:fontFamily="@font/bebas_nue_reg"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_below="@id/text_6"
+                    android:id="@+id/blog_1_card_donate"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="10dp"
+                    app:cardUseCompatPadding="true"
+                    tools:cardCornerRadius="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:cropToPadding="true"
+                            android:scaleType="centerCrop"
+                            android:foreground="#3F000000"
+                            android:src="@drawable/cafe7907549d063c99d7438efa389666"
+                            android:foregroundTintMode="src_atop"
+                            android:adjustViewBounds="true"
+                            >
+                        </ImageView>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="Why Donate?"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/playfair_display"
+                            android:textColor="@color/white"
+                            android:textSize="30sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20dp"
+                            android:text="Read More"
+                            android:textStyle="italic"
+                            android:layout_marginBottom="20dp"
+                            android:layout_alignParentBottom="true"
+                            android:textColor="@color/black"
+                            android:textSize="10sp" />
+
+
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/blog_1_card_donate"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#FFFF" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/blog_2_card_donate"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_below="@+id/blog_1_card_donate"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="10dp"
+                    app:cardUseCompatPadding="true"
+                    tools:cardCornerRadius="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:cropToPadding="true"
+                            android:scaleType="centerCrop"
+                            android:foreground="#3F000000"
+                            android:src="@drawable/_7f3162e6ceb9c8bbca98ce06951e4a0"
+                            android:foregroundTintMode="src_atop"
+                            android:adjustViewBounds="true"
+                            >
+                        </ImageView>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="How The Process\nIs Carried Out?"
+                            android:fontFamily="@font/playfair_display"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="30sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20dp"
+                            android:text="Read More"
+                            android:textStyle="italic"
+                            android:layout_marginBottom="20dp"
+                            android:layout_alignParentBottom="true"
+                            android:textColor="@color/black"
+                            android:textSize="10sp" />
+
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
